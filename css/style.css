@@ -1,0 +1,80 @@
+.bodybg{
+	background-repeat: repeat-x;
+	background: url(../img/img_bg.png);
+    background-size: cover;  
+    background-position:center;
+}
+@media (min-width: 768px) {
+	.bodybg{
+		background-repeat: no-repeat;
+	}
+}
+
+.logo-img{
+	margin-top: 79px;
+	width: 100px;
+	height: 100px;
+}
+@media (min-width: 768px){
+	.logo-img{
+		width: 160px;
+		height: 160px;
+	}
+}
+.title{
+	font-size: 30px;
+	color: #FFFFFF;
+	line-height: 42px;
+	margin-top: 35px;
+	font-family:Roboto-BoldCondensed;
+}
+@media (min-width: 768px) {
+	.title{
+		font-size: 36px;
+	}
+}
+.learn-ai-title{
+	font-size: 24px;
+	color:#ffffff;
+	line-height: 13px;
+	margin-top: 95px;
+	font-family:Roboto-Regular； 
+}
+.aipy-btn{
+	width: 200px;
+	height: 55.2px;
+	background: #ffffff;
+	font-size: 24px;
+	line-height: 33px;
+	color: #4a4a4a;
+	margin-top: 58.6px;
+	padding: 10px;
+}
+.aipy-transparent-btn{
+	width: 137.6px;
+	height: 55.2px;
+	background: transparent;
+	font-size: 24px;
+	line-height: 33px;
+	color: #4a4a4a;
+	margin-top: 58.6px;
+}
+.guanyu{
+	color: #ffffff;
+	font-size: 18px;
+	margin-top: 203.2px;
+	line-height: 21px;
+}
+.guanyu-text-margin{
+	margin-right: 30px;
+	color: #ffffff;
+	font-family: Roboto-Regular;
+}
+.footer-text{
+	color: #9B9B9B;
+	font-size: 14px;
+	line-height: 20px; 
+	margin-top: 41px;
+	margin-bottom: 59px;
+	font-family: PingFangSC-Light;
+}
