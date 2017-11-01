@@ -40,24 +40,20 @@
 	font-family:Roboto-Regular； 
 }
 .aipy-btn{
-	width: 100px;
-	height: 55.2px;
+	/*width: 150px;
+	height: 55.2px;*/
 	background: #ffffff;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 33px;
 	color: #4a4a4a;
-	margin-top: 58.6px;
+	/*margin-top: 58.6px;
 	padding: 10px;
+	display: block;
+	margin: 30px;
+	text-align: center;
+	float: left;*/
 }
-.aipy-transparent-btn{
-	width: 137.6px;
-	height: 55.2px;
-	background: transparent;
-	font-size: 24px;
-	line-height: 33px;
-	color: #4a4a4a;
-	margin-top: 50px;
-}
+
 .guanyu{
 	color: #ffffff;
 	font-size: 18px;

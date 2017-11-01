@@ -1,2 +1,0 @@
-# aipy
-AIPY releases
