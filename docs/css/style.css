@@ -1,8 +1,7 @@
 .bodybg{
-	background-repeat: repeat-x;
 	background: url(../img/img_bg.png);
-    background-size: cover;  
-    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;  
 }
 @media (min-width: 768px) {
 	.bodybg{
@@ -41,7 +40,7 @@
 	font-family:Roboto-Regular； 
 }
 .aipy-btn{
-	width: 200px;
+	width: 100px;
 	height: 55.2px;
 	background: #ffffff;
 	font-size: 24px;
@@ -57,12 +56,12 @@
 	font-size: 24px;
 	line-height: 33px;
 	color: #4a4a4a;
-	margin-top: 58.6px;
+	margin-top: 50px;
 }
 .guanyu{
 	color: #ffffff;
 	font-size: 18px;
-	margin-top: 203.2px;
+	margin-top: 60px;
 	line-height: 21px;
 }
 .guanyu-text-margin{
@@ -77,4 +76,47 @@
 	margin-top: 41px;
 	margin-bottom: 59px;
 	font-family: PingFangSC-Light;
+}
+.no-padding{
+	padding: 0;
+}
+.instruction-bg{
+	background:#0F212D;
+	margin-top: 44px;
+	padding-bottom: 44px;
+}
+.hr-line{
+	background: #5091C9;
+	margin-top: 66px;
+	width: 40px;
+	height: 4px;
+	float: left;
+}
+.instruction-title{
+	font-family: Roboto-Light;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 23px;
+    margin-top: 106px;
+    margin-bottom: 13px;
+}
+.instruction-content-text{
+	font-family: Roboto-Light;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 23px;
+    margin-top: 13px;
+    margin-bottom: 50px;
+}
+.friends-chaining{
+	margin-right: 10px;
+	vertical-align: baseline;
+}
+@media (min-width: 768px){
+	.friends-chaining{
+		margin-right: 20px;
+	}
+}
+.chaining-paragraph{
+	margin-top: 20px;
 }
